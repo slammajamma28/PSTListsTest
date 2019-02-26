@@ -295,11 +295,6 @@ $(document).ready(function () {
     });
 
 
-
-
-
-
-
     /* Testing */
     function sort_unique(arr) {
         return arr.sort(function(a,b){
@@ -319,6 +314,68 @@ $(document).ready(function () {
         }
     }
     gamesList = sort_unique(gamesList);
+
+    
+    $(".update-numbers").click(function() {
+    	console.log("hello i clicked export");
+    	console.log("using this to check on updating numbers after by games stuff");
+    	for(var a = 0; a < lists.length; a++){
+            var thisLS = localStorage.getItem(lists[a].listName);
+            console.log(lists[a].listName + " was at " + thisLS);
+            var actualEarned = 0;
+            for (var b = 0; b < lists[a].trophies.length; b++) {
+                if (localStorage.getItem("t-"+lists[a].trophies[b].name) != null ) {
+                	console.log("Earned trophy: " + lists[a].trophies[b].name);
+                	actualEarned++;
+                }
+            }
+            if (actualEarned > 0) {
+            	console.log(lists[a].listName + " is now at " + actualEarned);
+            	localStorage.setItem(lists[a].listName, actualEarned);
+            }
+        }
+    })
+    
+    $("#exported").hide();
+
+    $(".export-storage").click(function() {
+        $("#import-import-button").hide();
+        $("#import-ok-button").show();
+        $("#import-cancel-button").hide();
+        $("#exported").show();
+        $("#localStorageText").val(JSON.stringify(localStorage))
+    })
+
+    $(".import-storage").click(function() {
+        $("#import-import-button").show();
+        $("#import-ok-button").hide();
+        $("#import-cancel-button").show();
+        $("#exported").show();
+    })
+
+    $(".import-import").click(function() {
+    	var data = JSON.parse($("#localStorageText").val());
+    	Object.keys(data).forEach(function (k) {
+    		localStorage.setItem(k, data[k]);
+        });
+        $("#import-import-button").show();
+        $("#exported").hide();
+    })
+
+    $(".import-ok").click(function() {
+    	console.log("importing local storage")
+    	var data = JSON.parse($("#localStorageText").val());
+    	Object.keys(data).forEach(function (k) {
+    		localStorage.setItem(k, data[k]);
+        });
+        $("#exported").hide();
+        $("#localStorageText").val("");
+    })
+    
+    $(".import-cancel").click(function() {
+        $("#exported").hide();
+        $("#localStorageText").val("");
+    })
 
     $(".get-games").click(function(){
         toggleView();
