@@ -2330,6 +2330,161 @@ var lists = [{
         imag: "http://www.playstationtrophies.org/images/trophies/586/10.jpg"
     }]
 },{
+    listName: "Bread's PLZ PLAY THESE GAMES INSTEAD KTHX",
+    banner: "https://i.imgur.com/gbTMqyT.png",
+    award: "https://i.imgur.com/N8DJJPl.png",
+    trophies: [{
+        game: "A Hat in Time",
+        name: "Pillow Fort",
+        desc: "Find Hat Kid's Secret Hideout!",
+        imag: "https://www.playstationtrophies.org/images/trophies/6166/2ca.jpg",
+    },{
+        game: "Assassin's Creed Syndicate",
+        name: "WHAT IS WRONG WITH YOU",
+        desc: "Flip five vehicles by shooting their horses.",
+        imag: "https://www.playstationtrophies.org/images/trophies/3634/351.jpg",
+    },{
+        game: "Bridge Constructor Portal",
+        name: "No Hard Feelings (b)",
+        desc: "First turret decommissioned",
+        imag: "https://www.playstationtrophies.org/images/trophies/7905/1c5.jpg",
+    },{
+        game: "Call of Duty: Modern Warfare Remastered",
+        name: "Ghillies In The Mist",
+        desc: "Complete 'All Ghillied Up' without alerting any enemies.",
+        imag: "https://www.playstationtrophies.org/images/trophies/4594/ce8.jpg",
+    },{
+        game: "Crash Bandicoot: Warped",
+        name: "Taking the Scenic Route",
+        desc: "Discover a '?' Bonus Path.",
+        imag: "https://www.playstationtrophies.org/images/trophies/5958/90f.jpg",
+    },{
+        game: "Dragon Quest Builders",
+        name: "Custodian of Cantlin",
+        desc: "Awarded for completing the Cantlin chapter.",
+        imag: "https://www.playstationtrophies.org/images/trophies/3817/ed1.jpg",
+    },{
+        game: "Detroit: Become Human",
+        name: "THIS IS MY STORY",
+        desc: "Finish the game once",
+        imag: "https://www.playstationtrophies.org/images/trophies/4082/0d7.jpg",
+    },{
+        game: "Devil May Cry 5",
+        name: "Seriously Stylish Slaying!",
+        desc: "Perform a Stylish Rank SSS combo.",
+        imag: "https://www.playstationtrophies.org/images/trophies/7511/bc4.jpg",
+    },{
+        game: "Final Fantasy IX",
+        name: "A Round of Applause",
+        desc: "Have the nobles demand an encore.",
+        imag: "https://www.playstationtrophies.org/images/trophies/553/c5e.jpg",
+    },{
+        game: "God of War",
+        name: "Best Dressed",
+        desc: "Craft an outfit for Atreus",
+        imag: "https://www.playstationtrophies.org/images/trophies/4708/a66.jpg",
+    },{
+        game: "Hellblade: Senua’s Sacrifice",
+        name: "The Final Battle",
+        desc: "Confront Hela",
+        imag: "https://www.playstationtrophies.org/images/trophies/6193/ec6.jpg",
+    },{
+        game: "Horizon Zero Dawn",
+        name: "First Tallneck Overridden",
+        desc: "Scaled a Tallneck and accessed its information.",
+        imag: "https://www.playstationtrophies.org/images/trophies/3726/add.jpg",
+    },{
+        game: "Judgment",
+        name: "Local Detective",
+        desc: "Cleared 30 side cases.",
+        imag: "https://www.playstationtrophies.org/images/trophies/7921/017.jpg",
+    },{
+        game: "Marvel's Spider-Man",
+        name: "Backpacker",
+        desc: "Collect all Backpacks",
+        imag: "https://www.playstationtrophies.org/images/trophies/4712/361.jpg",
+    },{
+        game: "Mirror's Edge Catalyst",
+        name: "Elegant Flight",
+        desc: "Deliver any fragile package without any damage to it",
+        imag: "https://www.playstationtrophies.org/images/trophies/2098/3a6.jpg",
+    },{
+        game: "NieR: Automata",
+        name: "One Battle Ends",
+        desc: "Achieve ending A.",
+        imag: "https://www.playstationtrophies.org/images/trophies/4086/76d.jpg",
+    },{
+        game: "Persona 5",
+        name: "Castle of Lust Falls",
+        desc: "Complete the Castle Palace.",
+        imag: "https://www.playstationtrophies.org/images/trophies/471/9a3.jpg",
+    },{
+        game: "Phoenix Wright: Ace Attorney Trilogy",
+        name: "First Steps",
+        desc: "Start playing PW: AA Trilogy.",
+        imag: "https://www.playstationtrophies.org/images/trophies/7974/50c.jpg",
+    },{
+        game: "Red Dead Redemption 2",
+        name: "Extreme Personality",
+        desc: "Reach maximum or minimum Honor level.",
+        imag: "https://www.playstationtrophies.org/images/trophies/5152/663.jpg",
+    },{
+        game: "Resident Evil 2",
+        name: "Eat This!",
+        desc: "Counterattack with a sub-weapon.",
+        imag: "https://www.playstationtrophies.org/images/trophies/6014/050.jpg",
+    },{
+        game: "Rocket League",
+        name: "Break Shot",
+        desc: "Score a goal by hitting your opponent into the ball",
+        imag: "https://www.playstationtrophies.org/images/trophies/3583/e6f.jpg",
+    },{
+        game: "Sekiro: Shadows Die Twice",
+        name: "The Phantom Lady Butterfly",
+        desc: "Defeated 'Lady Butterfly'",
+        imag: "https://www.playstationtrophies.org/images/trophies/7514/e6e.jpg",
+    },{
+        game: "South Park: The Fractured But Whole",
+        name: "Boy Love Aficionado",
+        desc: "Find all Yaoi art pieces",
+        imag: "https://www.playstationtrophies.org/images/trophies/3723/138.jpg",
+    },{
+        game: "Spyro the Dragon",
+        name: "Sheep Kebab",
+        desc: "Flame 10 sheep in Stone Hill",
+        imag: "https://www.playstationtrophies.org/images/trophies/7210/18f.jpg",
+    },{
+        game: "The Last Guardian",
+        name: "Though We Are Far Apart",
+        desc: "Play the game all the way to the end.",
+        imag: "https://www.playstationtrophies.org/images/trophies/341/bed.jpg",
+    },{
+        game: "Titanfall 2",
+        name: "Secret Plans",
+        desc: "Completed Special Operation 217",
+        imag: "https://www.playstationtrophies.org/images/trophies/4305/852.jpg",
+    },{
+        game: "Uncharted 4: A Thief's End",
+        name: "Glamour Shot",
+        desc: "Take a photo of Sully",
+        imag: "https://www.playstationtrophies.org/images/trophies/2388/663.jpg",
+    },{
+        game: "Undertale",
+        name: "Dognation Level 1",
+        desc: "Donate 6G to the Dog Shrine.",
+        imag: "https://www.playstationtrophies.org/images/trophies/5971/7dc.jpg",
+    },{
+        game: "Valkyria Chronicles",
+        name: "Order of the Holy Lance",
+        desc: "Obtain the decoration based on the Valkyrian lance, presented to a squad shown to have earned victory with exceptional speed.",
+        imag: "https://www.playstationtrophies.org/images/trophies/416/01e.jpg",
+    },{
+        game: "Yakuza 0",
+        name: "...I Did It for the Trophy",
+        desc: "Watch a sexy video.",
+        imag: "https://www.playstationtrophies.org/images/trophies/4477/c3e.jpg",
+    }]
+},{
     listName: "Breaking Warbear's Representing the ABQ",
     banner: "http://i.imgur.com/2w2GzGK.jpg",
     award: "http://i.imgur.com/BiR5YVs.jpg",
@@ -4499,6 +4654,11 @@ var lists = [{
         desc: "Score a minimum of 2500 points in single player mode in Pillow Fight.",
         imag: "http://www.playstationtrophies.org/images/trophies/136/07.jpg"
     },{
+        game: "Days Gone",
+        name: "Best Friends Forever",
+        desc: " Complete a Companion Activity in each camp",
+        imag: "https://www.playstationtrophies.org/images/trophies/4709/7ec.jpg"
+    },{
         game: "Fallout: New Vegas",
         name: "Making Friends",
         desc: "Reactivated all of the Sink's robotic assistants.",
@@ -4563,6 +4723,11 @@ var lists = [{
         name: "Friends in High Places",
         desc: "Use a pardon letter with more than $5000 bounty in Single Player.",
         imag: "http://www.playstationtrophies.org/images/trophies/340/32.jpg"
+    },{
+        game: "Red Dead Redemption 2",
+        name: "Friends With Benefits (r)",
+        desc: "Receive the Allied Trust status with an Encampment",
+        imag: "https://www.playstationtrophies.org/images/trophies/5152/159.jpg"
     },{
         game: "Resident Evil 5",
         name: "A Friend in Need",
@@ -6700,7 +6865,7 @@ var lists = [{
         imag: "http://www.playstationtrophies.org/images/trophies/845/37F.jpg"
     },{
         game: "Portal 2",
-        name: "No Hard Feelings",
+        name: "No Hard Feelings (p)",
         desc: "Save a turret from redemption",
         imag: "http://www.playstationtrophies.org/images/trophies/610/24.jpg"
     },{
@@ -9625,7 +9790,7 @@ var lists = [{
         imag: "http://www.playstationtrophies.org/images/trophies/1704/fa9.jpg"
     },{
         game: "The Witcher 3: Wild Hunt",
-        name: "Friends With Benefits",
+        name: "Friends With Benefits (w)",
         desc: "Complete the subplot involving Keira Metz.",
         imag: "http://www.playstationtrophies.org/images/trophies/1904/3b2.jpg"
     },{
