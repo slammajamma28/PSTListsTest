@@ -4656,7 +4656,7 @@ var lists = [{
     },{
         game: "Days Gone",
         name: "Best Friends Forever",
-        desc: " Complete a Companion Activity in each camp",
+        desc: "Receive the Allied Trust status with an Encampment",
         imag: "https://www.playstationtrophies.org/images/trophies/4709/7ec.jpg"
     },{
         game: "Fallout: New Vegas",
@@ -4726,7 +4726,7 @@ var lists = [{
     },{
         game: "Red Dead Redemption 2",
         name: "Friends With Benefits (r)",
-        desc: "Receive the Allied Trust status with an Encampment",
+        desc: "Complete a Companion Activity in each camp",
         imag: "https://www.playstationtrophies.org/images/trophies/5152/159.jpg"
     },{
         game: "Resident Evil 5",
@@ -5986,7 +5986,7 @@ var lists = [{
     },{
         game: "Sly Cooper: Thieves in Time",
         name: "Zenny, Gil, or Just Loot",
-        desc: " Unlock the Cooper Safe in Episode 4.",
+        desc: "Unlock the Cooper Safe in Episode 4.",
         imag: "https://www.playstationtrophies.org/images/trophies/810/485.jpg"
     },{
         game: "Sonic & All-Stars Racing Transformed",
@@ -7701,7 +7701,7 @@ var lists = [{
     },{
         game: "Rugby World Cup 2015",
         name: "Long Droppie",
-        desc: " Score a drop goal from 40+ metres",
+        desc: "Score a drop goal from 40+ metres",
         imag: "http://www.playstationtrophies.org/images/trophies/3800/522.jpg"
     },{
         game: "Sleeping Dogs",
@@ -11081,7 +11081,7 @@ var lists = [{
     },{
         game: "Watch Dogs 2",
         name: "Feeding Frenzy",
-        desc: "Use the \"Call the cops\" hack on the donut-disguised man in Haight-Ashbury ",
+        desc: "Use the \"Call the cops\" hack on the donut-disguised man in Haight-Ashbury",
         imag: "https://www.playstationtrophies.org/images/trophies/4673/7f1.jpg"
     }]
 },{
