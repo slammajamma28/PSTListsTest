@@ -385,7 +385,8 @@ $(document).ready(function () {
 
         $("#list-header").hide();
         $(".container.trophy_list.top").css("margin-top","20px");
-        $(".container.trophy_list.top").html("<div class='col-xs-12'><p>Refresh the page to go back.</p></div>");
+        $(".container.trophy_list.top").html("<div class='col-xs-10'><p>Refresh the page to go back.</p></div>" +
+        		"<div class='col-xs-2 text-center'><p>Own Game</p></div>");
 
         // Fill out trophy List
         var trophyCount = 0,
@@ -393,11 +394,22 @@ $(document).ready(function () {
         $("#trophy-list").html("");
 
         for(var i = 0; i < gamesList.length; i++){
+        	var gameGOT= "",
+        	currentGame = gamesList[i];
+        	
+        	if(localStorage.getItem("g-" + currentGame)){
+            	gameGOT = "checked";
+            }
+        	
             $("#trophy-list").addClass("all-games").append("" +
                 "<div id=\"game-list-"+ i +"\" class='trophy all-trophy'>" +
                 "<div class=\"row\">" +
-                "<div class=\"col-sm-12\">" +
-                "<h3>" + gamesList[i] + "</h3>" +
+                "<div class=\"col-sm-10\">" +
+                "<h3>" + currentGame + "</h3>" +
+                "</div>" +
+                "<div class=\"col-sm-2 col-xs-6 text-center all-games-trophy\" style=\"padding: 2px 7px;\">" +
+                "<input type=\"checkbox\" id=\"bygame-checkbox-game-"+ i + "\" class=\"bygame-check-game\" data-game-name=\"g-" + currentGame + "\" " + gameGOT + "/>" +
+                "<label for=\"bygame-checkbox-game-"+ i + "\" class=\"label-trophy\">&#10004;</label>" +
                 "</div>" +
                 "</div>" +
                 "" +
@@ -427,7 +439,7 @@ $(document).ready(function () {
                     $("#game-list-" + gameID).find(".game-list-trophies .col-sm-12").append("" +
                         "<div class=\"row game-list-trophy\">" +
                         "<div class=\"col-xs-12 all-games-trophy\">" +
-                        "<input type=\"checkbox\" id=\"bygame-checkbox-trophy-"+ a +"-" + b + "\" class=\"bygame-check-trophy\" data-trophy-name=\"t-" + trophyName + "\" "+ trophyGOT +"/>" +
+                        "<input type=\"checkbox\" id=\"bygame-checkbox-trophy-"+ a +"-" + b + "\" class=\"bygame-check-trophy game\" data-trophy-name=\"t-" + trophyName + "\" "+ trophyGOT +"/>" +
                         "<h4 class=\"game-list-trophy-name "+ trophyName.replace(/[^a-z0-9\s]/gi, '').replace(/[_\s]/g, '-').toLocaleLowerCase() +"\">" + trophyName + "</h4>" +
                         "<div class=\"col-xs-12 listsList\"></div>" +
                         "</div>" +
@@ -458,6 +470,20 @@ $(document).ready(function () {
             localStorage.setItem(thisTrophy, true);
         } else {
             localStorage.removeItem(thisTrophy);
+        }
+    });
+    
+    // Clicking on game checkbox for By game
+    $("#trophy-list").on("click", ".bygame-check-game", function(e){
+    	e.stopPropagation();
+        e.stopImmediatePropagation();    	
+    	var checked = e.target.checked,
+            thisGame = $(this).data("game-name");
+
+        if(checked){
+            localStorage.setItem(thisGame, true);
+        } else {
+            localStorage.removeItem(thisGame);
         }
     });
 });
