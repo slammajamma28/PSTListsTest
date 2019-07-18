@@ -324,6 +324,11 @@ var lists = [{
         desc: "Discover Path of the Dragon covenant.",
         imag: "http://www.playstationtrophies.org/images/trophies/755/14.jpg"
     },{
+	game: "Dead Island: Riptide",
+        name: "Better than the arm",
+        desc: "Kill 25 monsters with a chainsaw",
+        imag: "https://www.playstationtrophies.org/images/trophies/1590/B2F.jpg"
+    },{
         game: "Deadly Premonition: The Director's Cut",
         name: "Legendary Tabatha",
         desc: "You'll never catch [Tabatha] with your current fishing rod. Borrow the legendary fishing rod from Jim and try again. [Tabatha] appears near the waterfall only on rainy days.",
