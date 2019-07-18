@@ -7009,7 +7009,7 @@ var lists = [{
         desc: "Slap more than one player at once",
         imag: "http://www.playstationtrophies.org/images/trophies/533/29.jpg"
     },{
-        game: "LEGO Lord of the Rings",
+        game: "LEGO The Lord of the Rings",
         name: "Return of the Mushroom King",
         desc: "Equip Aragorn with the Mushroom Crown.",
         imag: "http://www.playstationtrophies.org/images/trophies/1535/901.jpg"
