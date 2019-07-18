@@ -2389,7 +2389,7 @@ var lists = [{
         desc: "Craft an outfit for Atreus",
         imag: "https://www.playstationtrophies.org/images/trophies/4708/a66.jpg",
     },{
-        game: "Hellblade: Senua’s Sacrifice",
+        game: "Hellblade: Senua's Sacrifice",
         name: "The Final Battle",
         desc: "Confront Hela",
         imag: "https://www.playstationtrophies.org/images/trophies/6193/ec6.jpg",
