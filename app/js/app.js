@@ -343,6 +343,7 @@ $(document).ready(function () {
         $("#import-ok-button").show();
         $("#import-cancel-button").hide();
         $("#exported").show();
+        $("#list-of-lists").hide();
         $("#localStorageText").val(JSON.stringify(localStorage))
     })
 
@@ -351,6 +352,7 @@ $(document).ready(function () {
         $("#import-ok-button").hide();
         $("#import-cancel-button").show();
         $("#exported").show();
+        $("#list-of-lists").hide();
     })
 
     $(".import-import").click(function() {
@@ -360,6 +362,7 @@ $(document).ready(function () {
         });
         $("#import-import-button").show();
         $("#exported").hide();
+        $("#list-of-lists").show();
     })
 
     $(".import-ok").click(function() {
@@ -370,11 +373,13 @@ $(document).ready(function () {
         });
         $("#exported").hide();
         $("#localStorageText").val("");
+        $("#list-of-lists").show();
     })
     
     $(".import-cancel").click(function() {
         $("#exported").hide();
         $("#localStorageText").val("");
+        $("#list-of-lists").show();
     })
 
     $(".get-games").click(function(){
