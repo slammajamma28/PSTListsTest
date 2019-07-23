@@ -317,8 +317,6 @@ $(document).ready(function () {
 
     
     $(".update-numbers").click(function() {
-    	console.log("hello i clicked export");
-    	console.log("using this to check on updating numbers after by games stuff");
     	for(var a = 0; a < lists.length; a++){
             var thisLS = localStorage.getItem(lists[a].listName);
             console.log(lists[a].listName + " was at " + thisLS);
@@ -334,6 +332,7 @@ $(document).ready(function () {
             	localStorage.setItem(lists[a].listName, actualEarned);
             }
         }
+        window.location.reload();
     })
     
     $("#exported").hide();
