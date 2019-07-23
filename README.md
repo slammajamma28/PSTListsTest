@@ -12,7 +12,7 @@ https://slammajamma28.github.io/PSTCTL_V2/app/index.html
 
 ### By Games Calculation "Fix"
 
-I noticed that when checking off trophies on the "By Games" page, the counts for the lists do not update in the overview. So, I implemented the "Calculate" button. After you finish checking trophies off through the By Game page, refresh to get back to the Overview. Click "Calculate" and refresh the page again. The numbers should be updated accordingly.
+I noticed that when checking off trophies on the "By Games" page, the counts for the lists do not update in the overview. So, I implemented the "Calculate" button. After you finish checking trophies off through the By Game page, refresh to get back to the Overview. Click "Calculate" and the page will refresh with the numbers updated accordingly.
 
 ### By Games Owned Games
 
