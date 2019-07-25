@@ -236,6 +236,7 @@ function saveTrophy(e) {
     }
 
     updateListProgress();
+    return false;
 }
 
 // Click Game Checkbox
