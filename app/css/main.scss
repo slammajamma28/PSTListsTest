@@ -161,8 +161,8 @@ select.form-control{
     input[type="checkbox"]:not(.bygame-check-trophy){
       visibility: hidden;
       position: absolute;
-      left: -9999px;
-      top: -9999px;
+      //left: -9999px;
+      //top: -9999px;
 
       &:checked ~ label{
         color: rgba(0,0,0,1);
