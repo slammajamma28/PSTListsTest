@@ -147,8 +147,8 @@ function listSelected(clickedList){
             "<p>"+ thisTrophy.desc +"</p>" +
             "</div>" +
             "<div class=\"col-sm-1 col-xs-6 text-center\">" +
-            "<input type=\"checkbox\" id=\"checkbox-trophy-"+ i +"\" class=\"check-trophy\" "+ trophyChecked +"/>" +
             "<label for=\"checkbox-trophy-"+ i +"\" class=\"label-trophy\">&#10004;</label>" +
+            "<input type=\"checkbox\" id=\"checkbox-trophy-"+ i +"\" class=\"check-trophy\" "+ trophyChecked +"/>" +
             "</div>" +
             "<div class=\"col-sm-1 col-xs-6 text-center\">" +
             "<input type=\"checkbox\" id=\"checkbox-game-"+ i +"\" class=\"check-game\" "+ gameChecked +"/>" +
