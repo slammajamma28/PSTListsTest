@@ -216,6 +216,7 @@ function resetBbcode(){
 
 // Click Trophy Checkbox
 function saveTrophy(e) {
+    e.preventDefault();
     var trophiesChecked = $('input.check-trophy:checked').length,
         checked = e.target.checked,
         thisTrophy = $(e.target).closest(".trophy").data("trophy-name");
@@ -236,7 +237,6 @@ function saveTrophy(e) {
     }
 
     updateListProgress();
-    return false;
 }
 
 // Click Game Checkbox
